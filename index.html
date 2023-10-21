@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predict Football Goals</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Prédiction de Buts de Football</h1>
+        <label for="teamA">Équipe A:</label>
+        <input type="text" id="teamA" placeholder="Nom de l'équipe A">
+
+        <label for="teamB">Équipe B:</label>
+        <input type="text" id="teamB" placeholder="Nom de l'équipe B">
+
+        <label for="goalsA">Buts Équipe A:</label>
+        <input type="number" id="goalsA" placeholder="Nombre de buts de l'équipe A">
+
+        <label for="goalsB">Buts Équipe B:</label>
+        <input type="number" id="goalsB" placeholder="Nombre de buts de l'équipe B">
+
+        <button onclick="predictGoals()">Prédire</button>
+
+        <p id="predictionResult"></p>
+    </div>
+    <!-- ... Votre code HTML existant ... -->
+
+<label for="teamAWin">Victoire Équipe A:</label>
+<input type="number" id="teamAWin" placeholder="Victoires Équipe A">
+
+<label for="teamBWin">Victoire Équipe B:</label>
+<input type="number" id="teamBWin" placeholder="Victoires Équipe B">
+
+<button onclick="predictOutcome()">Prédire Victoire et Buts</button>
+
+<p id="predictionResult"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
